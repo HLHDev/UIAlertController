@@ -15,6 +15,7 @@
 		48D43A6C224C5AE900843486 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D43A6B224C5AE900843486 /* main.m */; };
 		48D43A76224C5AEA00843486 /* UIAlertToolsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D43A75224C5AEA00843486 /* UIAlertToolsDemoTests.m */; };
 		48D43A81224C5AEA00843486 /* UIAlertToolsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D43A80224C5AEA00843486 /* UIAlertToolsDemoUITests.m */; };
+		48D43A91224C6A8E00843486 /* HLAlertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D43A90224C6A8E00843486 /* HLAlertTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		48D43A7C224C5AEA00843486 /* UIAlertToolsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIAlertToolsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48D43A80224C5AEA00843486 /* UIAlertToolsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIAlertToolsDemoUITests.m; sourceTree = "<group>"; };
 		48D43A82224C5AEA00843486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48D43A8F224C6A8E00843486 /* HLAlertTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLAlertTool.h; sourceTree = "<group>"; };
+		48D43A90224C6A8E00843486 /* HLAlertTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLAlertTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				48D43A5D224C5AE700843486 /* AppDelegate.m */,
 				48D43A5F224C5AE700843486 /* ViewController.h */,
 				48D43A60224C5AE700843486 /* ViewController.m */,
+				48D43A8E224C6A8E00843486 /* HLAlertTool */,
 				48D43A62224C5AE700843486 /* Main.storyboard */,
 				48D43A65224C5AE900843486 /* Assets.xcassets */,
 				48D43A67224C5AE900843486 /* LaunchScreen.storyboard */,
@@ -130,6 +134,15 @@
 				48D43A82224C5AEA00843486 /* Info.plist */,
 			);
 			path = UIAlertToolsDemoUITests;
+			sourceTree = "<group>";
+		};
+		48D43A8E224C6A8E00843486 /* HLAlertTool */ = {
+			isa = PBXGroup;
+			children = (
+				48D43A8F224C6A8E00843486 /* HLAlertTool.h */,
+				48D43A90224C6A8E00843486 /* HLAlertTool.m */,
+			);
+			path = HLAlertTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +277,7 @@
 			files = (
 				48D43A61224C5AE700843486 /* ViewController.m in Sources */,
 				48D43A6C224C5AE900843486 /* main.m in Sources */,
+				48D43A91224C6A8E00843486 /* HLAlertTool.m in Sources */,
 				48D43A5E224C5AE700843486 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
